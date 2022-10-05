@@ -1,15 +1,6 @@
 (function($){
 
 	jQuery(document).ready(function(){
-
-
-        // meanmenu
-        jQuery('#mobile-menu').meanmenu({
-            meanMenuContainer: '.mobile-menu',
-            meanScreenWidth: "991"
-        });
-
-
     	/** main-slider **/	
     	$('.main-slider-active').slick({
             infinite: true,
