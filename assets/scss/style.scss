@@ -11,7 +11,12 @@
 2. header
 3. slider-area
 */
+
 @import 'variable';
+
+/* Components */
+@import './components/componets';
+
 @import 'common';
 @import 'header';
 @import 'slider';
