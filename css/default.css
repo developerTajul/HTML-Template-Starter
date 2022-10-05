@@ -1,3 +1,91 @@
+/*
+Default CSS:
+
+1.Background Color(section background color)
+2. Overlay
+3. Spacing : margin + padding
+
+Media Query: Bootstrap(576,768,992,1200,1400)
+
+*/
+
+/* Background Color */
+.gray-bg {
+  background: #333333;
+}
+
+.light-gray-bg {
+  background: #F7F7FD;
+}
+
+.bg-light-ash {
+  background: #F7F7FD;
+}
+
+.white-bg {
+  background: #fff;
+}
+
+.black-bg {
+  background: #343434;
+}
+
+.sky-bg {
+  background: #56b9d0;
+}
+
+.light-yellow-bg {
+  background: #F6F6F6;
+}
+
+
+/* black overlay */
+
+[data-overlay] {
+  position: relative;
+}
+
+[data-overlay]::before {
+  background: #000 none repeat scroll 0 0;
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+[data-overlay="3"]::before {
+  opacity: 0.3;
+}
+
+[data-overlay="4"]::before {
+  opacity: 0.4;
+}
+
+[data-overlay="5"]::before {
+  opacity: 0.5;
+}
+
+[data-overlay="6"]::before {
+  opacity: 0.6;
+}
+
+[data-overlay="7"]::before {
+  opacity: 0.7;
+}
+
+[data-overlay="8"]::before {
+  opacity: 0.8;
+}
+
+[data-overlay="9"]::before {
+  opacity: 0.9;
+}/*# sourceMappingURL=default.css.map */
+
+
+/* margin and paddign */
 .mt-5 {
   margin-top: 5px;
 }
@@ -3736,84 +3824,4 @@ xl device
     padding-right: 145px;
   }
 }
-/* Background Color */
-.gray-bg {
-  background: #333333;
-}
 
-.light-gray-bg {
-  background: #F7F7FD;
-}
-
-.bg-light-ash {
-  background: #F7F7FD;
-}
-
-.white-bg {
-  background: #fff;
-}
-
-.black-bg {
-  background: #343434;
-}
-
-.sky-bg {
-  background: #56b9d0;
-}
-
-.light-yellow-bg {
-  background: #F6F6F6;
-}
-
-/* Color */
-.white {
-  color: #fff;
-}
-
-.black {
-  color: #222;
-}
-
-/* black overlay */
-[data-overlay] {
-  position: relative;
-}
-
-[data-overlay]::before {
-  background: #000 none repeat scroll 0 0;
-  content: "";
-  height: 100%;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  z-index: 1;
-}
-
-[data-overlay="3"]::before {
-  opacity: 0.3;
-}
-
-[data-overlay="4"]::before {
-  opacity: 0.4;
-}
-
-[data-overlay="5"]::before {
-  opacity: 0.5;
-}
-
-[data-overlay="6"]::before {
-  opacity: 0.6;
-}
-
-[data-overlay="7"]::before {
-  opacity: 0.7;
-}
-
-[data-overlay="8"]::before {
-  opacity: 0.8;
-}
-
-[data-overlay="9"]::before {
-  opacity: 0.9;
-}/*# sourceMappingURL=default.css.map */
